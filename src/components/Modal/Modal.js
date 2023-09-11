@@ -1,6 +1,6 @@
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { Overlay, ModalWindow } from './Modal.styled';
-import PropTypes from 'prop-types';
 
 export class Modal extends Component {
   componentDidMount() {

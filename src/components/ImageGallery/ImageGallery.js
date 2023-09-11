@@ -1,11 +1,11 @@
+import PropTypes from 'prop-types';
 import { Component } from 'react';
 import { ImageGalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem';
-import { List, Message, ErrorWrapper, Span } from './ImageGallery.styled';
 import { Loader } from 'components/Loader/Loader';
 import { fetchImages } from 'services/pixabayApi';
 import { Modal } from 'components/Modal/Modal';
 import { Button } from 'components/Button/Button';
-import PropTypes from 'prop-types';
+import { List, Message, ErrorWrapper, Span } from './ImageGallery.styled';
 
 export class ImageGallery extends Component {
   state = {
